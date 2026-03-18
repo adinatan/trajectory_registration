@@ -14,3 +14,7 @@ This just makes the final coordinates look nice around the origin and consistent
 
 The registerd trajectories are in  `xyzt_final`, which has the same size as the input `xyzt` but now lives in one shared frame. 
 If you comment out the `return` line near the end, the script also writes a small MP4 movie (`ensemble_movie.mp4`) showing how the aligned solute ensemble evolves in time.
+
+The figure below shows the solute ensemble of 50 trajectories at the initial time point after registration to the common reference structure. This is a useful visual check that the trajectories were aligned properly before applying the final common orientation and before examining the later-time dynamics.
+
+![Registration at t0](registration_at_t0.png)
