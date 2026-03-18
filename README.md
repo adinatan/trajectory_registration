@@ -1,4 +1,4 @@
-# AlignTraj
+#     trajectory_registration
 
 `AlignTraj.m` loads a trajectory dataset, aligns all trajectories to a common solute-based reference, puts everything into one consistent 3D frame (and optionally makes a movie of the result to check).
 The main point is simple: different trajectories can have arbitrary overall translation and rotation, which makes direct comparison and anisotropy `S2` simulations messy. This script removes that rigid-body motion so the remaining differences are the actual structural dynamics.
