@@ -1,5 +1,4 @@
 function [Data_reg, info] = registerStructures3D(Data, AtomName, varargin)
-% REGISTERSTRUCTURES3D
 % Rigid registration of molecular xyz structures using weighted Kabsch alignment.
 %
 % Supports:
