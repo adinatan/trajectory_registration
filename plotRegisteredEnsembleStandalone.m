@@ -1,5 +1,4 @@
 function plotRegisteredEnsembleStandalone(X, AtomName, varargin)
-% PLOTREGISTEREDENSEMBLESTANDALONE
 % Plot an ensemble of 3D structures with semi-transparent atoms by atom type.
 %
 % Inputs
